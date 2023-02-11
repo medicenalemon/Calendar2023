@@ -1,0 +1,136 @@
+.titulo {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+  font-size: 45px;
+  text-align: center;
+}
+
+html {
+  background-color: #fff;
+}
+
+div {
+  text-align: center;
+  padding: 0;
+  margin: 0px auto;
+  width: 1300px;
+}
+
+ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(3, 14fr);
+  padding: 0;
+  width: 760px;
+}
+
+ol {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  padding: 0;
+}
+
+ol li {
+  width: 63px;
+}
+
+.first-day-jan {
+  grid-column-start: 1;
+}
+
+.font {
+  font-family: 'Poppins', sans-serif;
+}
+
+.font-dark {
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+}
+
+.first-day-feb {
+  grid-column-start: 4;
+}
+
+.first-day-mar {
+  grid-column-start: 4;
+}
+
+.first-day-apr {
+  grid-column-start: 7;
+}
+
+.first-day-may {
+  grid-column-start: 2;
+}
+
+.first-day-jun {
+  grid-column-start: 5;
+}
+
+.first-day-jul {
+  grid-column-start: 7;
+}
+
+.first-day-aug {
+  grid-column-start: 3;
+}
+
+.first-day-sep {
+  grid-column-start: 6;
+}
+
+.first-day-oct {
+  grid-column-start: 1;
+}
+
+.first-day-nov {
+  grid-column-start: 4;
+}
+
+.first-day-dec {
+  grid-column-start: 6;
+}
+
+.sunday {
+  color: #f00;
+}
+
+.saturday {
+  color: #0aa;
+}
+
+.day-name {
+  background: #ddd;
+  font-weight: bold;
+  text-align: center;
+}
+
+.btn-bootstrap {
+  padding: .375rem .75rem;
+  margin: 0px auto;
+  border-radius: .25rem;
+  border: 1px solid #111;
+  background-color: #fff;
+  color: #111;
+  transition: background-color .15s ease-in-out;
+  text-decoration: none;
+}
+
+.btn-borde {
+  padding: .375rem .75rem;
+  margin: 0px auto;
+  border: 1px solid rgb(44, 62, 80);
+  border-radius: .25rem;
+  color: rgb(44, 62, 80);
+  transition: color .15s ease-in-out,
+    background-color .15s ease-in-out;
+  text-decoration: none;
+}
+
+.btn-borde:hover, .btn-borde:active, .btn-borde:focus {
+  color: #fff;
+  background-color: rgb(44, 62, 80);
+}
+
+
